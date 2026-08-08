@@ -1,0 +1,34 @@
+
+
+When you run the simulation, you should see output similar to:
+
+```text
+-------------------------------------
+       FIFO SIMULATION START
+-------------------------------------
+
+WRITE: Data = a1 | Full = 0 | Empty = 0
+WRITE: Data = b2 | Full = 0 | Empty = 0
+WRITE: Data = c3 | Full = 0 | Empty = 0
+WRITE: Data = d4 | Full = 0 | Empty = 0
+
+READ : Data = a1 | Full = 0 | Empty = 0
+READ : Data = b2 | Full = 0 | Empty = 0
+READ : Data = c3 | Full = 0 | Empty = 0
+READ : Data = d4 | Full = 0 | Empty = 1
+
+-------------------------------------
+FIFO Empty = 1
+-------------------------------------
+
+WRITE: Data = 11 | Full = 0 | Empty = 0
+WRITE: Data = 22 | Full = 0 | Empty = 0
+WRITE: Data = 33 | Full = 0 | Empty = 0
+
+READ : Data = 11 | Full = 0 | Empty = 0
+READ : Data = 22 | Full = 0 | Empty = 0
+READ : Data = 33 | Full = 0 | Empty = 1
+
+-------------------------------------
+       FIFO SIMULATION END
+-------------------------------------
